@@ -6,12 +6,24 @@
             align-items: center;
             justify-content: center;
         }
-    
+        .logo{
+            width:30%
+        }
+        @media only screen and (max-width: 1000px) {
+           .logo{
+               width:40%
+           }
+        }
+       @media only screen and (max-width: 600px) {
+           .logo{
+               width:50%
+           }
+        }
     </style>
 </head>
 <body >
     <div class = 'contact-us'>
-        <img src='logo.png' width='30%'>
+        <img class = 'logo' src='logo.png'>
         <p style="text-align: center;">Ajmera Classes <br>
         Flat no A1/3 Kasliwal Vishwa,<br>
         Ulkanagri,Aurangabad -431009<br>
