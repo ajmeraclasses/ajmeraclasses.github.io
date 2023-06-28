@@ -1,6 +1,6 @@
 @echo "Publishing Website"
 @echo off
-call ng build --base-href
+call ng build --base-href ./
 cd docs
 copy index.html 404.html
 cd ..
