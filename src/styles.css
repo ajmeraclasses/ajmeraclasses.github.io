@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(theme.css);
+
+body{
+    background-color: var(--background);
+    overflow-x: hidden;
+    /* font-family: 'Libre Franklin', sans-serif; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background: url('assets/bg1.jpg'); */
+}
+
+.heading{
+    /* margin-top: 4vw; */
+    font-size: 3em;
+    color: var(--onBackground);
+    text-align: center;
+}

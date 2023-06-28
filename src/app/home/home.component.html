@@ -1,0 +1,50 @@
+<div class="bg-image">
+    <img class="image"src="assets/home-bg.jpg">
+    <div class="overlay"></div>
+    <div class="welcome">Welcome to <br><span class="chereo">Ajmera Classes</span></div>
+    <div class="tagline">Strive not to be a sucess but rather to be of value</div>
+</div>
+<div class="section-heading">Highlights of Our Class</div>
+<div class="highlights">
+    <app-highlight *ngFor="let highlight of Highlights" highlight="{{highlight['highlight']}}" desc="{{highlight['desc']}}"></app-highlight>
+</div>
+<div class="section-heading">Our Courses</div>
+<div class="courses">
+    <div class="course-card">
+        <div class="category">ICSE</div>
+        <div class= "course-desc">
+            Unlock your child's excellence in Maths, Physics, Chemistry, and Biology! Our comprehensive study pattern includes regular worksheets, practice sessions, and class tests for academic achievement.
+        </div>
+        <a class="explore-more" routerLink="/icse">Explore More</a>
+    </div>
+    <div class="course-card">
+        <div class="category">CBSE</div>
+        <div class= "course-desc">
+            Parents seeking Maths and Science excellence for their child, look no further! 
+            Our program ensures exam success and skill enhancement through extensive question-solving. 
+            Join us for academic excellence!
+        </div>
+        <a class="explore-more"routerLink="/cbse">Explore More</a>
+    </div>
+    <div class="course-card">
+        <div class="category">Competative Exams</div>
+        <div class= "course-desc">
+            Excel in competitive exams that test skill and temperament. 
+            Our comprehensive question bank and mock papers prepare students for NTSE, NSO, IMO, and more. Achieve success with us
+        </div>
+        <a class="explore-more"routerLink="/competitive-exams">Explore More</a>
+    </div>
+    <div class="course-card">
+        <div class="category">Vedic Maths</div>
+        <div class= "course-desc">
+            Boost your Calculations with Vedic Maths at Ajmera Classes. Unlock fast computations, gaining a competitive edge in mathematical problem-solving. Accelerate your math skills with us!
+
+        </div>
+        <a class="explore-more"routerLink="/vedic-maths">Explore More</a>
+    </div>
+</div>
+'<div class="section-heading">10th Class Results</div>
+<div class="results">
+    <app-result-card *ngFor="let result of results" [result]="result"></app-result-card>
+</div>
+<div class="testimonials"></div>
