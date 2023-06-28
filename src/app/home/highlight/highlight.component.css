@@ -19,3 +19,14 @@
     font-size: 1em;
     font-family: 'Libre Franklin', sans-serif;
 }
+
+@media screen and (max-width : 500px) {
+    .highlight-card{
+        width: 80vw;
+        padding: 3vw;
+        margin-bottom: 5vw;
+    }
+    .card-heading{
+        font-size: 1.5em;
+    }
+}

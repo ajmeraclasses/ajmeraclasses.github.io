@@ -116,3 +116,49 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+@media screen and (max-width : 500px) {
+    .image{
+        height: 66vw;
+    }
+    .welcome{
+        width: 100%;
+        font-size: 2em;
+        line-height: 1.2;
+    }
+    .tagline{
+        text-align: center;
+        /* top: 75%; */
+        width: 100%;
+    }
+    .section-heading{
+        margin-top: 5vw;
+    }
+    .highlights{
+        margin: 5vw 10vw;
+    }
+    .courses{
+        margin: 5vw 10vw 0;
+    }
+    .course-card{
+        width: 80vw;
+        padding: 3vw 6vw;
+        margin-bottom: 5vw;
+    }
+    .category{
+        font-size: 1.5em;
+    }
+    .course-desc{
+        margin-bottom: 3vw;
+    }
+    .explore-more{
+        padding: 1.2vw 4.5vw;
+        width: 35vw;
+        height: 8vw;
+        border-radius: 4vw;
+        font-size: 4vw;
+    }
+    .results{
+        margin: 5vw 6vw;
+    }
+}

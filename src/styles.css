@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import url(theme.css);
 
-body{
+body {
     background-color: var(--background);
     overflow-x: hidden;
     /* font-family: 'Libre Franklin', sans-serif; */
@@ -9,9 +9,16 @@ body{
     /* background: url('assets/bg1.jpg'); */
 }
 
-.heading{
+.heading {
     /* margin-top: 4vw; */
     font-size: 3em;
     color: var(--onBackground);
     text-align: center;
+}
+
+@media screen and (max-width :500px) {
+    .heading {
+        margin-top: 5vw;
+        font-size: 2em;
+    }
 }

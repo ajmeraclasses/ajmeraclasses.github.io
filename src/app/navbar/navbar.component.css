@@ -43,6 +43,9 @@
         /* color: black; */
         font-weight: 500;
     }
+    .logo{
+        height: 4.5vw;
+    }
     .navbar-brand{
         font-size: 120%;
         color: var(--onBackground);
