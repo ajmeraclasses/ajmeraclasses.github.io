@@ -1,0 +1,25 @@
+.chat-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 11vw;
+    height: 2vw;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    background-color: var(--secondary);
+    color: var(--onSecondary);
+    text-decoration: none;
+    border-radius:1.5vw;
+    font-size: 1.2em;
+    transition: bottom 0.8s;
+}
+
+@media screen and (max-width:500px) {
+    .chat-button{
+        width: 40vw;
+        height: 8vw;
+        border-radius: 4vw;
+    }
+}

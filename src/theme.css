@@ -30,3 +30,10 @@
     src: url('assets/freehand.TTF');
 }
 
+@font-face {
+    font-family: 'Franklin';
+    /* src: url('assets/Franklin.woff2') format('woff2'); */
+    src: url('assets/FRADM.TTF') format('truetype'),
+         url('assets/framd.woff2') format('woff2');
+}
+

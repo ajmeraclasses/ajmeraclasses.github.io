@@ -1,0 +1,143 @@
+.section-heading,
+.section-desc,
+.section {
+    margin: 0 5vw;
+}
+
+.section-heading {
+    margin-top: 2vw;
+    font-size: 2em;
+    color: var(--onBackground);
+    text-align: center;
+
+}
+
+.section-desc {
+    padding: 0 10vw;
+    text-align: center;
+    color: var(--onPrimary);
+    font-size: 1.2em;
+    background-color: var(--primary);
+}
+
+.section {
+    margin: 1vw 15vw 2vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.class-tabs {
+    width: 10vw;
+    height: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 1vw;
+}
+
+.class-tab {
+    background-color: var(--secondary);
+    border: 0;
+    height: 2vw;
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--onSecondary);
+}
+
+.desc-tab {
+    background-color: var(--primary);
+    width: 59vw;
+    border-radius: 5px;
+    color: var(--onPrimary);
+    box-shadow: var(--drop-shadow);
+    padding: 0.5vw 1vw;
+}
+
+.ws {
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5vw 1vw;
+    border-radius: 1vw;
+}
+
+.title-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tab-title {
+    width: fit-content;
+    font-size: 1.5em;
+}
+
+.tab-desc {
+    font-size: 1.1em;
+    margin: 0.5vw 0;
+    white-space: pre-line;
+    /* font-family: 'Libre Franklin', sans-serif; */
+    font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+    .section {
+        margin: 5vw 5vw;
+        flex-direction: column;
+    }
+
+    .section-heading {
+        font-size: 1.5em;
+    }
+
+    .class-tabs {
+        width: 90vw;
+        flex-direction: row;
+        justify-content: space-around;
+        height: fit-content;
+        flex-wrap: wrap;
+    }
+
+    .class-tab {
+        width: 25vw;
+        margin-bottom: 3vw;
+        height: 6vw;
+        font-size: 1em;
+    }
+
+    .desc-tab {
+        padding: 3vw;
+        width: 90vw;
+    }
+
+    .tab-title {
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+
+    .tab-desc {
+        font-size: 1em;
+        font-family: 'Libre Franklin', sans-serif;
+    }
+
+    .ws {
+        /* padding: 1.2vw 4.5vw; */
+        width: 35vw;
+        height: 8vw;
+        border-radius: 4vw;
+        font-size: 3.5vw;
+        margin-right: 4vw;
+    }
+
+    .buttons {
+        margin-top: 3vw;
+        display: flex;
+        justify-content: stretch
+    }
+
+
+
+}

@@ -9,6 +9,9 @@ import { HighlightComponent } from './home/highlight/highlight.component';
 import { ResultCardComponent } from './result-card/result-card.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ResultsComponent } from './results/results.component';
+import { ChatButtonComponent } from './chat-button/chat-button.component';
+import { OurCoursesComponent } from './our-courses/our-courses.component';
+import { SectionsComponent } from './our-courses/sections/sections.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { ResultsComponent } from './results/results.component';
     HomeComponent,
     HighlightComponent,
     ResultCardComponent,
-    ResultsComponent
+    ResultsComponent,
+    ChatButtonComponent,
+    OurCoursesComponent,
+    SectionsComponent
   ],
   imports: [
     BrowserModule,

@@ -4,8 +4,7 @@
 body {
     background-color: var(--background);
     overflow-x: hidden;
-    /* font-family: 'Libre Franklin', sans-serif; */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin' ,sans-serif;
     /* background: url('assets/bg1.jpg'); */
 }
 

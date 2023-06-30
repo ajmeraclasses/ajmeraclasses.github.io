@@ -9,6 +9,7 @@ import { Result } from '../result-card/result';
 })
 export class HomeComponent {
   results: Result[] = [];
+   w = window.innerWidth;
   Highlights = [
     {
       'highlight' : "Individual Attention",

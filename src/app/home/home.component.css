@@ -84,7 +84,7 @@
 
 .category{
     font-size: var(--body-text);
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.8;
 }
 .course-desc{
