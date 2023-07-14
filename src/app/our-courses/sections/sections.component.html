@@ -8,11 +8,11 @@
     <div class="desc-tab">
         <div class="title-bar">
             <div class="tab-title">Course Program for <span *ngIf="isNumber(currentClass.grade)">Class
-                </span>{{currentClass.grade}}</div><a *ngIf="!isMobile"class="class-tab ws">Sample Worksheet</a>
+                </span>{{currentClass.grade}}</div><a *ngIf="!isMobile && currentClass.wsLink != undefined"class="class-tab ws" [href]="currentClass.wsLink">Sample Worksheet</a>
         </div>
         <div class="tab-desc">{{currentClass.description}}</div>
         <div class="buttons">
-        <a *ngIf="isMobile"class="class-tab ws">Sample Worksheet</a>
+        <a *ngIf="isMobile && currentClass.wsLink != undefined" class="class-tab ws" [href]="currentClass.wsLink">Sample Worksheet</a>
         <a *ngIf="currentClass.grade == 10" class="class-tab ws" routerLink="/results">Check Our Results</a>
     </div>
     </div>

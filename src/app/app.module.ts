@@ -12,6 +12,9 @@ import { ResultsComponent } from './results/results.component';
 import { ChatButtonComponent } from './chat-button/chat-button.component';
 import { OurCoursesComponent } from './our-courses/our-courses.component';
 import { SectionsComponent } from './our-courses/sections/sections.component';
+import { VedicMathsComponent } from './vedic-maths/vedic-maths.component';
+import { ArtHouseComponent } from './art-house/art-house.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { SectionsComponent } from './our-courses/sections/sections.component';
     ResultsComponent,
     ChatButtonComponent,
     OurCoursesComponent,
-    SectionsComponent
+    SectionsComponent,
+    VedicMathsComponent,
+    ArtHouseComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,

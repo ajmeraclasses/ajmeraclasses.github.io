@@ -10,5 +10,5 @@ export class Class{
     // exam?:string;
     grade?:number | string;
     description!:string;
-    wsLinks?:string;
+    wsLink?:string | undefined;
 }
