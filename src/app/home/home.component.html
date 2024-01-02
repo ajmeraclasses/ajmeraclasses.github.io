@@ -1,5 +1,5 @@
 <div class="bg-image">
-    <img class="image"src="assets/home-bg.jpg">
+    <img class="image"src="assets/bg.png">
     <div class="overlay"></div>
     <div class="welcome">Welcome to <br><span class="chereo">Ajmera Classes</span></div>
     <div class="tagline">Strive not to be a sucess but rather to be of value</div>
@@ -43,9 +43,12 @@
         <a class="explore-more"routerLink="/vedic-maths">Explore More</a>
     </div>
 </div>
-'<div class="section-heading">10th Class Results</div>
+<div class="section-heading">10th Class Results</div>
 <div class="results">
     <app-result-card *ngFor="let result of results" [result]="result"></app-result-card>
 </div>
-{{w}}
-<div class="testimonials"></div>
+<!-- {{w}} -->
+<div class="section-heading">Testimonials</div>
+<div class="testimonials">
+    <app-testomonials></app-testomonials>
+</div>

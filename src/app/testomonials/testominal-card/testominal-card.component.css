@@ -1,0 +1,42 @@
+.test-box{
+    width: 25vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    background-color: var(--primary);
+    padding: 1vw;
+    border-radius: var(--border-radius);
+    color: var(--onPrimary);
+    /* text-align: center; */
+}
+.content{
+    font-size: 1vw;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+}
+.name{
+    font-size: 1.2vw;
+}
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 0.5vw solid transparent;
+	border-right: 0.5vw solid transparent;
+	border-top: 0.5vw solid var(--primary);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    /* margin-bottom: 2vw; */
+}
+.testcard{
+    height: 50vh;
+    position: relative;
+}
+.image{
+    margin-top: 2vw;
+    width: 5vw;
+    height: 6vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}

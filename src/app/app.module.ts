@@ -15,6 +15,8 @@ import { SectionsComponent } from './our-courses/sections/sections.component';
 import { VedicMathsComponent } from './vedic-maths/vedic-maths.component';
 import { ArtHouseComponent } from './art-house/art-house.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { TestomonialsComponent } from './testomonials/testomonials.component';
+import { TestominalCardComponent } from './testomonials/testominal-card/testominal-card.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     SectionsComponent,
     VedicMathsComponent,
     ArtHouseComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    TestomonialsComponent,
+    TestominalCardComponent
   ],
   imports: [
     BrowserModule,
