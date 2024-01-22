@@ -40,3 +40,43 @@
     transform: translateX(-50%);
     border-radius: 50%;
 }
+@media screen and (max-width : 500px) {
+    .test-box{
+        width: 80vw;
+        /* margin-left: 2.5vw;
+        margin-right: 2.5vw;
+        background-color: var(--primary); */
+        padding: 3vw;
+        /* border-radius: var(--border-radius);
+        color: var(--onPrimary); */
+        /* text-align: center; */
+    }
+    .content{
+        font-size: 1em;
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: 600;
+    }
+    .name{
+        font-size: 1.2em;
+    }
+    .image{
+        margin-top: 6vw;
+        width: 25vw;
+        height: 30vw;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 50%;
+    }
+    .triangle-down {
+        width: 0;
+        height: 0;
+        border-left: 1.5vw solid transparent;
+        border-right: 1.5vw solid transparent;
+        border-top: 1.5vw solid var(--primary);
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        /* margin-bottom: 2vw; */
+    }
+}

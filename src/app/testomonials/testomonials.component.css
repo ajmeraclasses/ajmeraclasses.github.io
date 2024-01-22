@@ -1,5 +1,5 @@
 .outer{
-    height: 60vh;
+    height: 65vh;
     display: flex;
     justify-content: space-around;
     margin: 0 10vw;
@@ -9,4 +9,19 @@
 }
 .carousel-control-next{
     right:-5vw
+}
+
+@media screen and (max-width : 500px) {
+    .outer{
+        height: 55vh;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 10vw;
+    }
+    .carousel-control-prev{
+        left:-5vw
+    }
+    .carousel-control-next{
+        right:-5vw
+    }
 }

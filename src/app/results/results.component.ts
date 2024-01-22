@@ -19,9 +19,9 @@ getResults(){
     for(var i=1;i<=results.length;i++){
       var result = results[i].split(',');
       this.results.push({
-        name: result[1],
+        name: result[1] ,
         percentage: result[2],
-        image: result[0],
+        image: result[0] ?? 'person.jpg',
       } as Result)
     }
   })
