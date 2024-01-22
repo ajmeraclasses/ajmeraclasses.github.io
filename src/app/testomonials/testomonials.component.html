@@ -20,7 +20,7 @@
       <span class="visually-hidden">Next</span>
     </button>
 </div>
-<div *ngIf="{isMobile}" id="carouselExampleIndicators" class="carousel slide">
+<div *ngIf="isMobile" id="carouselExampleIndicators" class="carousel slide">
  
   <div class="carousel-inner">
       <div class="carousel-item" [ngClass]="{'active': isFirst}" *ngFor="let testimonial of mobile_carousel_items; first as isFirst">
