@@ -17,7 +17,7 @@ export class HomeComponent {
     },
     {
       'highlight' : "Limited number of students",
-      'desc' : "Unlock the benefits of a limited number of students per batch at Ajmera Classes. Receive personalized attention, interactive learning, and an optimal environment. Join us for academic excellence"
+      'desc' : "Unlock the benefits of a limited number of students per batch at Ajmera Classes. Receive personalized attention, interactive learning, and an optimal environment. Join us for academic excellence."
     },
     {
       'highlight' : "Regular Assignments",
