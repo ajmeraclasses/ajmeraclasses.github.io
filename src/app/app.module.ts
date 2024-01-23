@@ -17,6 +17,7 @@ import { ArtHouseComponent } from './art-house/art-house.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { TestomonialsComponent } from './testomonials/testomonials.component';
 import { TestominalCardComponent } from './testomonials/testominal-card/testominal-card.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { TestominalCardComponent } from './testomonials/testominal-card/testomin
     ArtHouseComponent,
     ContactUsComponent,
     TestomonialsComponent,
-    TestominalCardComponent
+    TestominalCardComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
