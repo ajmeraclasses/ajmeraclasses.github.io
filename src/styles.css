@@ -44,9 +44,14 @@ body {
     background-color: var(--background);
     overflow-x: hidden;
     font-family: 'Franklin' ,sans-serif;
-    /* background: url('assets/bg1.jpg'); */
+    height: 100%;
 }
-
+app-root{
+    display: block;
+    min-height: 100vh;
+    height: fit-content;
+    position: relative;
+}
 .heading {
     /* margin-top: 4vw; */
     font-size: 3em;

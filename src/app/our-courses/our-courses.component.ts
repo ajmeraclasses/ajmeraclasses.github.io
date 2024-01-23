@@ -27,7 +27,7 @@ export class OurCoursesComponent {
  }
 
  comp : Section = {
-   title: 'Competative Exams',
+   title: 'Competitive Exams',
    desc: '  Excel in competitive exams that test skill and temperament. Our comprehensive question bank and mock papers prepare students for NTSE, NSO, IMO, and more. Achieve success with us',
    tabs: ['IMO','NSO','NSSE','NSTSE','NTSE'],
    classdesc: comp,
