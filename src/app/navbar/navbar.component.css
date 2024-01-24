@@ -41,6 +41,11 @@
         text-align: center;
         /* color: black; */
         font-weight: 500;
+        background-color: var(--background);
+    }
+    .container-fluid{
+        padding: 0;
+        background-color: var(--background)
     }
     .logo{
         height: 4.5vw;
