@@ -5,7 +5,7 @@
     --secondary: #FFB960;
     --onSecondary: #472A00;
     /* --background: #00315D; */
-    --background : #00315D;
+    --background : #00315d;
     --onBackground: white;
 
     --section-heading:3em;
@@ -35,7 +35,6 @@
     font-family: 'Franklin';
     /* src: url('assets/Franklin.woff2') format('woff2'); */
     src: url('assets/FRADM.TTF') format('truetype'),
-         url('assets/framd.woff2') format('woff2');
 }
 
 
