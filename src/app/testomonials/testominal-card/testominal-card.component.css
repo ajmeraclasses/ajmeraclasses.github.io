@@ -39,6 +39,7 @@
     left: 50%;
     transform: translateX(-50%);
     border-radius: 50%;
+    pointer-events: none;
 }
 @media screen and (max-width : 500px) {
     .test-box{
