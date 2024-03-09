@@ -67,6 +67,7 @@
         left: 50%;
         transform: translateX(-50%);
         border-radius: 50%;
+        pointer-events: none;
     }
     .triangle-down {
         width: 0;
