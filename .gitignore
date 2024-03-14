@@ -44,4 +44,4 @@ Thumbs.db
 /public 
 /src/firebase.ts
 /.firebaserc
-/.firebase.json
+/firebase.json
