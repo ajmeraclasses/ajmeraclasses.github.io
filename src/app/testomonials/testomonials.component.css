@@ -2,7 +2,7 @@
     height: 65vh;
     display: flex;
     justify-content: space-around;
-    margin: 0 10vw;
+    margin: 0 5vw;
 }
 .carousel-control-prev{
     left:-5vw
